@@ -1,1 +1,50 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container .header {
+  display: flex;
+  justify-content: space-around;
+}
+.container .header .menu ul {
+  list-style-type: none;
+}
+.container .header .menu ul li {
+  display: inline-block;
+  margin: 1rem;
+}
+.container .header .menu ul li a {
+  text-decoration: none;
+  color: blueviolet;
+  display: block;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: 0.5s;
+}
+.container .header .menu ul li a:hover {
+  background-color: rgb(0, 238, 255);
+  padding: 0.5rem 1rem;
+}
+.container .header .search-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.container .header .search-box h3 {
+  max-width: 280px;
+  line-height: 2rem;
+}
+.container .header .search-box .search input {
+  position: absolute;
+}/*# sourceMappingURL=style.css.map */
