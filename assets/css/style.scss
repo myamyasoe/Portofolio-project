@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -11,55 +13,82 @@ body {
   font-weight: 400;
   font-style: normal;
 }
-.container{
-    .header{
-        display: flex;
-        justify-content: space-around;
-        .menu{
-            
-            ul{
-                list-style-type: none;
-                li{
-                    display: inline-block;
-                    margin: 1rem;
-                   
-                    a{
-                        text-decoration: none;
-                        color: blueviolet;
-                        display: block;
-                        font-weight: bold;
-                        font-size: 1.2rem;
-                        transition: 0.5s;
-                        
-                    }
-                    a:hover{
-                        background-color: rgb(0, 238, 255);
-                        padding: 0.5rem 1rem;
-                    }
-                    
-                }
-            }
+.container {
+    background-color:rgb(248, 249, 255);
+  .header {
+    display: flex;
+    justify-content: space-around;
+    
+    .text {
+      font-size: 3rem;
+      font-weight: bold;
+      font-family: "Italianno", cursive;
+      color: palevioletred;
+      max-width: 350px;
+      text-align: center;
+      
+    }
+
+    .menu {
+        margin-top: 1rem;
+      ul {
+        list-style-type: none;
+        li {
+          display: inline-block;
+          margin: 1rem;
+
+          a {
+            text-decoration: none;
+            color: black;
+            display: block;
+            font-weight: bold;
+            font-size: 1.3rem;
+            color: blueviolet;
+          }
+        
         }
-        .search-box{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: relative;
-           
-           
-            h3{
-                // margin-top: 1rem;
-                max-width: 280px;
-                line-height: 2rem;
-            }
-            .search{
-                input{
-                    position: absolute;
-                }
-                // span{
-                //     i{}
-                // }
-            }
+      }
+    }
+   
+  }
+  .content-container{
+    display: flex;
+    justify-content: space-evenly;
+   
+    align-items: center;
+    margin-top: 4rem;
+  .content{
+    text-align: center;
+    .text-content{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .name{
+        font-size: 3rem;
+        font-weight: 600;
+        font-family: "Italianno", cursive;
+        margin: 1.5rem 0;
+    }
+    .btn{
+       
+        button{
+             padding:0.8rem 3rem;
+             border-radius: 4px;
+             border: none;
+             margin: 1rem;
+             background-color: palevioletred;
+             background: linear-gradient(palevioletred,blueviolet);
+             font-size: 1rem;
+             font-weight: bold;
         }
     }
+  }
+  .image{
+ 
+    img{
+
+       width: 600px;
+    }
+  }
+  }
 }

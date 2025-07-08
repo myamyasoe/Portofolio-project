@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -12,9 +13,23 @@ body {
   font-style: normal;
 }
 
+.container {
+  background-color: rgb(248, 249, 255);
+}
 .container .header {
   display: flex;
   justify-content: space-around;
+}
+.container .header .text {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Italianno", cursive;
+  color: palevioletred;
+  max-width: 350px;
+  text-align: center;
+}
+.container .header .menu {
+  margin-top: 1rem;
 }
 .container .header .menu ul {
   list-style-type: none;
@@ -25,26 +40,41 @@ body {
 }
 .container .header .menu ul li a {
   text-decoration: none;
-  color: blueviolet;
+  color: black;
   display: block;
   font-weight: bold;
-  font-size: 1.2rem;
-  transition: 0.5s;
+  font-size: 1.3rem;
+  color: blueviolet;
 }
-.container .header .menu ul li a:hover {
-  background-color: rgb(0, 238, 255);
-  padding: 0.5rem 1rem;
-}
-.container .header .search-box {
+.container .content-container {
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: center;
-  position: relative;
+  margin-top: 4rem;
 }
-.container .header .search-box h3 {
-  max-width: 280px;
-  line-height: 2rem;
+.container .content-container .content {
+  text-align: center;
 }
-.container .header .search-box .search input {
-  position: absolute;
+.container .content-container .content .text-content {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.container .content-container .content .name {
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: "Italianno", cursive;
+  margin: 1.5rem 0;
+}
+.container .content-container .content .btn button {
+  padding: 0.8rem 3rem;
+  border-radius: 4px;
+  border: none;
+  margin: 1rem;
+  background-color: palevioletred;
+  background: linear-gradient(palevioletred, blueviolet);
+  font-size: 1rem;
+  font-weight: bold;
+}
+.container .content-container .image img {
+  width: 600px;
 }/*# sourceMappingURL=style.css.map */
