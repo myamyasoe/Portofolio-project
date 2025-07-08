@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+$Red: hsl(0, 78%, 62%);
+$Cyan: hsl(180, 62%, 55%);
+$Orange: hsl(34, 97%, 64%);
+$Blue: hsl(212, 86%, 64%);
+$Grey: hsl(234, 12%, 34%);
+$Grey: hsl(212, 6%, 44%);
+$White: hsl(0, 0%, 100%);
+
+body{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:200;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+   
+    // height: 800px;
+}
+
+.container{
+    // background-color: red;
+    max-width: 890px;
+    height: 100vh;
+    margin:  16px 50px ;
+
+    padding: 2rem 4rem;
+    .header{
+        text-align: center;
+        max-width: 480px;
+        transform: translateX(280px);
+       
+        .title{
+            font-size: 1.5rem;
+            font-weight:100;
+      
+        }
+        .power{
+            font-size: 1.5rem;
+            font-weight:bold;
+            margin-bottom: 0.5rem;
+        }
+        .outfit{
+            font-size: 15px;
+            font-weight: 400;
+        }
+    }
+    .footer{
+        display: grid;
+        grid-template-columns:repeat(3,350px) ;
+        grid-template-rows: 250px;
+        gap: 1rem;
+        margin-top: 11rem;
+        
+        .card{
+        // padding-left:20px ;
+        box-shadow: 0px 1px 3px $Grey;
+        border-radius: 8px;
+        overflow: hidden;
+        .green{
+            width: inherit;
+            height: 4px;
+            background-color: $Cyan;
+           
+        }
+        .red{
+            width: 100%;
+            height: 4px;
+            background-color: $Red;
+        }
+        .orange{
+            width: 100%;
+            height: 4px;
+            background-color: $Orange;
+        }
+        .blue{
+            width: 100%;
+            height: 4px;
+            background-color: $Blue;
+        }
+        .image{
+            max-width: 240px;
+            padding-left: 24px;
+            h2{}
+            p{
+                font-size: 15px;
+                transform: translateY(-1rem);
+            }
+        }
+          
+            img{
+              transform: translateX(240px);
+              width: 50px;
+              height: 50px;
+              margin-top: 3rem;
+            }
+        }
+        .card-one{
+           background-color:$White ;
+          
+        }
+        .card-container{
+         display: grid;
+         grid-template-rows: 250px;
+         gap: 2rem;
+            .card-two{
+              background-color: $White;
+              transform: translateY(-140px);
+            //   height: 200px;
+            }
+            .card-three{
+             background-color: $White;
+             height: 250px;
+             transform: translateY(-158px);
+
+            }
+        }
+        .card-four{
+           background-color: $White;
+
+        }
+    }
+}

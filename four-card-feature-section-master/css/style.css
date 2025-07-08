@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.container {
+  max-width: 890px;
+  height: 100vh;
+  margin: 16px 50px;
+  padding: 2rem 4rem;
+}
+.container .header {
+  text-align: center;
+  max-width: 480px;
+  transform: translateX(280px);
+}
+.container .header .title {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+.container .header .power {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.container .header .outfit {
+  font-size: 15px;
+  font-weight: 400;
+}
+.container .footer {
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  grid-template-rows: 250px;
+  gap: 1rem;
+  margin-top: 11rem;
+}
+.container .footer .card {
+  box-shadow: 0px 1px 3px hsl(212, 6%, 44%);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.container .footer .card .green {
+  width: inherit;
+  height: 4px;
+  background-color: hsl(180, 62%, 55%);
+}
+.container .footer .card .red {
+  width: 100%;
+  height: 4px;
+  background-color: hsl(0, 78%, 62%);
+}
+.container .footer .card .orange {
+  width: 100%;
+  height: 4px;
+  background-color: hsl(34, 97%, 64%);
+}
+.container .footer .card .blue {
+  width: 100%;
+  height: 4px;
+  background-color: hsl(212, 86%, 64%);
+}
+.container .footer .card .image {
+  max-width: 240px;
+  padding-left: 24px;
+}
+.container .footer .card .image p {
+  font-size: 15px;
+  transform: translateY(-1rem);
+}
+.container .footer .card img {
+  transform: translateX(240px);
+  width: 50px;
+  height: 50px;
+  margin-top: 3rem;
+}
+.container .footer .card-one {
+  background-color: hsl(0, 0%, 100%);
+}
+.container .footer .card-container {
+  display: grid;
+  grid-template-rows: 250px;
+  gap: 2rem;
+}
+.container .footer .card-container .card-two {
+  background-color: hsl(0, 0%, 100%);
+  transform: translateY(-140px);
+}
+.container .footer .card-container .card-three {
+  background-color: hsl(0, 0%, 100%);
+  height: 250px;
+  transform: translateY(-158px);
+}
+.container .footer .card-four {
+  background-color: hsl(0, 0%, 100%);
+}/*# sourceMappingURL=style.css.map */
