@@ -108,7 +108,7 @@ body {
         font-size: 3rem;
         text-align: center;
         font-size: 700;
-        color: blueviolet;
+       
       }
 
       .skill {
@@ -199,11 +199,15 @@ body {
   }
   .personal-container{
    margin-top: 5rem;
+   .personal{
     p{}
     .person-name{}
+    }
+    .detail{
     .address{}
     .phone{}
     .email{}
+    }
     .details{
       i{}
       .topic{}
