@@ -100,7 +100,8 @@ body {
 .container .skill-container .skill-text .skills {
   font-size: 3rem;
   text-align: center;
-  font-size: 700;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
 }
 .container .skill-container .skill-text .skill {
   margin-top: 5rem;
@@ -159,7 +160,7 @@ body {
 }
 .container .skill-container .skill-text .skill .javascript .progress-container .progress-bar {
   height: 100%;
-  width: 50%;
+  width: 30%;
 }
 .container .skill-container .skill-text .skill .scss .progress-container .progress-bar {
   width: 55%;
@@ -212,4 +213,33 @@ body {
 }
 .container .personal-container .personal-box .details .text-one {
   margin: 0.5rem 0 0.5rem 0;
+}
+.container .social-container {
+  background-color: rgba(43, 183, 226, 0.288);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.container .social-container .social {
+  display: flex;
+  gap: 2rem;
+  max-width: 890px;
+  height: 100px;
+  margin-top: 1rem;
+}
+.container .social-container .social .socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.container .social-container .social .socials i {
+  font-size: 2rem;
+}
+.container .social-container .social .socials p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 800;
 }/*# sourceMappingURL=style.css.map */

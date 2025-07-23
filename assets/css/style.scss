@@ -108,7 +108,8 @@ body {
       .skills {
         font-size: 3rem;
         text-align: center;
-        font-size: 700;
+        font-weight: 700;
+        font-family: "Poppins", sans-serif;
       }
 
       .skill {
@@ -176,7 +177,7 @@ body {
           .progress-container {
             .progress-bar {
               height: 100%;
-              width: 50%;
+              width: 30%;
             }
           }
         }
@@ -205,11 +206,9 @@ body {
       max-width: 890px;
       margin: 0 auto;
       background-color: white;
-      height:500px;
+      height: 500px;
       border-radius: 20px;
-      box-shadow:3px -3px 8px palevioletred ;
-      
-      
+      box-shadow: 3px -3px 8px palevioletred;
 
       .personal {
         text-align: center;
@@ -219,7 +218,6 @@ body {
           font-family: "Poppins", sans-serif;
           color: transparent;
           color: blueviolet;
-        
         }
         .person-name {
           font-size: 2.5rem;
@@ -227,9 +225,9 @@ body {
           color: brown;
           text-shadow: 3px 3px pink;
         }
-        span{
+        span {
           font-size: 1.5rem;
-          margin-top:1.5rem ;
+          margin-top: 1.5rem;
         }
       }
       .detail {
@@ -255,6 +253,35 @@ body {
           margin: 0.5rem 0 0.5rem 0;
         }
         .text-two {
+        }
+      }
+    }
+  }
+  .social-container {
+    background-color: rgba(43, 183, 226, 0.288);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    .social {
+      display: flex;
+      gap: 2rem;
+      max-width: 890px;
+      height: 100px;
+      margin-top: 1rem;
+      .socials {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        i {
+          font-size: 2rem;
+        }
+        p {
+          font-family: "Poppins", sans-serif;
+          font-size: 1.2rem;
+          font-weight: 800;
         }
       }
     }
